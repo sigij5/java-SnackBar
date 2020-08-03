@@ -24,26 +24,38 @@ public class MainApp {
         System.out.println(c1.cusCash());
         System.out.println(s4.snackQuantity());
 
+        System.out.println(" ");
+
         c1.buySnack(s3.getTotalCost(1));
         s3.buySnack(1);
         System.out.println(c1.cusCash());
         System.out.println(s3.snackQuantity());
+
+        System.out.println(" ");
 
         c2.buySnack(s4.getTotalCost(2));
         s4.buySnack(2);
         System.out.println(c2.cusCash());
         System.out.println(s4.snackQuantity());
 
+        System.out.println(" ");
+
         c1.addCash(10.00);
         System.out.println(c1.cusCash());
+
+        System.out.println(" ");
 
         c1.buySnack(s2.getTotalCost(1));
         s2.buySnack(1);
         System.out.println(c1.cusCash());
         System.out.println(s2.snackQuantity());
 
+        System.out.println(" ");
+
         s3.addQuantity(12);
         System.out.println(s3.snackQuantity());
+
+        System.out.println(" ");
 
         c2.buySnack(s3.getTotalCost(3));
         s3.buySnack(3);
